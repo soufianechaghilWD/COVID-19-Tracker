@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  background-color: #f8f8ec !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav__brand {
+  font-weight: 900;
+  color: #2343ea;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav__items {
+  font-weight: 700;
+  padding-right: 30px;
+}
+.home__row1 {
+  padding: 25px 0;
+  margin-top: 10px;
+  background-color: #cbd1ee;
+  margin-bottom: 10px;
+}
+.home__pic {
+  object-fit: contain;
+  text-align: right;
+}
+.Home__row1__left {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  line-height: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.Home__row1__left-part1 {
+  padding-left: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Home__row1__left-part2 h3 {
+  padding-bottom: 20px;
+  font-weight: 800;
+  color: #4b64e8;
+}
+.Home__row1__left-part2 p {
+  font-weight: 500;
+}
+.Home__row1__right h3 {
+  padding-bottom: 20px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.Home__row1__right__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.Home__row1__right-card {
+  width: 150px;
+  background-color: #c4ccf5 !important;
+}
+.home__cards {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 990px) {
+  .Home__row1__left {
+    line-height: normal;
   }
-  to {
-    transform: rotate(360deg);
+  .Home__row1__right {
+    display: none;
   }
 }
