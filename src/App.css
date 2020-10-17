@@ -107,6 +107,32 @@ table tr:nth-of-type(odd) {
 .footer li {
   color: rgb(53, 53, 73);
 }
+.news {
+  margin-left: 30px;
+}
+.news h2 {
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.news__buttons {
+  text-align: center;
+}
+.news__buttons__each {
+  margin: 10px;
+}
+.new__title {
+  font-weight: 900;
+  color: #2343ea;
+}
+.new {
+  background-color: #dfe9e5;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
 @media (max-width: 990px) {
   .Home__row1__left {
     line-height: normal;
